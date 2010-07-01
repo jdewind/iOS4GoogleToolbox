@@ -15,7 +15,7 @@
 }
 
 - (void) test_handles_mock_failure {
-  [[mock expect] stringByAppendingString:@"hello"];
+  [mock  stringByAppendingString:@"hello"];
   [mock verify];
 }
 
