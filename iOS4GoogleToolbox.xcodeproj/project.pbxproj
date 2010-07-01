@@ -26,9 +26,9 @@
 		4B346A7011DCDD2E008480AE /* FakeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B346A6F11DCDD2E008480AE /* FakeTest.m */; };
 		4B346A9B11DCDDC3008480AE /* libOCHamcrest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B346A9411DCDDAC008480AE /* libOCHamcrest.a */; };
 		4B346A9C11DCDDC8008480AE /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B346A8211DCDD9D008480AE /* libOCMock.a */; };
+		4B40E4B211DD0AD1008399AB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		4B8DD53911DCE35500386410 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		4B8DD58D11DCE35900386410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		4B8DD59A11DCE3B300386410 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		4B8DD59D11DCE3BE00386410 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
 		4B8DD5A011DCE3D500386410 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		4B8DD5BD11DCE3E000386410 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28860BE40F44EE6400985440 /* CoreData.framework */; };
@@ -438,9 +438,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B40E4B211DD0AD1008399AB /* MainWindow.xib in Resources */,
 				4B8DD5C311DCE3FC00386410 /* iOS4GoogleToolbox.xcdatamodeld in Resources */,
 				4B8DD59D11DCE3BE00386410 /* RootViewController.xib in Resources */,
-				4B8DD59A11DCE3B300386410 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
