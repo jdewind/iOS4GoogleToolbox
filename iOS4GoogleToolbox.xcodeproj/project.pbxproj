@@ -283,7 +283,7 @@
 		4B346A7311DCDD9D008480AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B346A7E11DCDD9D008480AE /* OCMock.framework */,
+				4B346A7E11DCDD9D008480AE /* OCMock */,
 				4B346A8011DCDD9D008480AE /* OCMockTests.octest */,
 				4B346A8211DCDD9D008480AE /* libOCMock.a */,
 				4B346A8411DCDD9D008480AE /* OCMock-iPhoneTests.octest */,
@@ -378,10 +378,10 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		4B346A7E11DCDD9D008480AE /* OCMock.framework */ = {
+		4B346A7E11DCDD9D008480AE /* OCMock */ = {
 			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OCMock.framework;
+			fileType = folder;
+			path = OCMock;
 			remoteRef = 4B346A7D11DCDD9D008480AE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
