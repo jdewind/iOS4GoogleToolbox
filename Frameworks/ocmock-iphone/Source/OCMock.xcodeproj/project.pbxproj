@@ -112,7 +112,7 @@
 		8C66707711A4883300D13372 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C66706C11A4881C00D13372 /* OCHamcrest.framework */; };
 		8C66708711A4893700D13372 /* libOCHamcrest-iPhone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C66707011A4881C00D13372 /* libOCHamcrest-iPhone.a */; };
 		8DC2EF510486A6940098B216 /* OCMock_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCF5E0370ADEE00C91783 /* OCMock_Prefix.pch */; };
-		9F35D3DC0D349E7E00C05E52 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* OCMock.framework */; };
+		9F35D3DC0D349E7E00C05E52 /* OCMock in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC2EF5B0486A6940098B216 /* OCMock */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -240,7 +240,7 @@
 		8C666D8711A468A900D13372 /* OCMock-iPhoneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OCMock-iPhoneTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C666E9711A4693100D13372 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = Info.plist; sourceTree = "<group>"; };
-		8DC2EF5B0486A6940098B216 /* OCMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DC2EF5B0486A6940098B216 /* OCMock */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = folder; path = OCMock; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,7 +251,7 @@
 				8C66707711A4883300D13372 /* OCHamcrest.framework in Frameworks */,
 				03BF2D4008F1C6BA00978C59 /* SenTestingKit.framework in Frameworks */,
 				03BF2D4108F1C6BC00978C59 /* Foundation.framework in Frameworks */,
-				9F35D3DC0D349E7E00C05E52 /* OCMock.framework in Frameworks */,
+				9F35D3DC0D349E7E00C05E52 /* OCMock in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +286,7 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DC2EF5B0486A6940098B216 /* OCMock.framework */,
+				8DC2EF5B0486A6940098B216 /* OCMock */,
 				03BF2D3708F1C69500978C59 /* OCMockTests.octest */,
 				8C666BFC11A458C900D13372 /* libOCMock.a */,
 				8C666D8711A468A900D13372 /* OCMock-iPhoneTests.octest */,
@@ -635,7 +635,7 @@
 			name = OCMock;
 			productInstallPath = "$(HOME)/Library/Frameworks";
 			productName = OCMock;
-			productReference = 8DC2EF5B0486A6940098B216 /* OCMock.framework */;
+			productReference = 8DC2EF5B0486A6940098B216 /* OCMock */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */

@@ -27,6 +27,10 @@
 		4B346A9B11DCDDC3008480AE /* libOCHamcrest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B346A9411DCDDAC008480AE /* libOCHamcrest.a */; };
 		4B346A9C11DCDDC8008480AE /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B346A8211DCDD9D008480AE /* libOCMock.a */; };
 		4B40E4B211DD0AD1008399AB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		4B83789911DE18EE0014ADC0 /* Strategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B83789811DE18EE0014ADC0 /* Strategy.m */; };
+		4B83789A11DE18EE0014ADC0 /* Strategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B83789811DE18EE0014ADC0 /* Strategy.m */; };
+		4B83792211DE20C80014ADC0 /* ProxyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B83792111DE20C80014ADC0 /* ProxyClass.m */; };
+		4B83792311DE20C80014ADC0 /* ProxyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B83792111DE20C80014ADC0 /* ProxyClass.m */; };
 		4B8DD53911DCE35500386410 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		4B8DD58D11DCE35900386410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		4B8DD59D11DCE3BE00386410 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
@@ -142,6 +146,10 @@
 		4B346A7111DCDD47008480AE /* TestHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHelper.h; sourceTree = "<group>"; };
 		4B346A7211DCDD9D008480AE /* OCMock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCMock.xcodeproj; path = "Frameworks/ocmock-iphone/Source/OCMock.xcodeproj"; sourceTree = "<group>"; };
 		4B346A8511DCDDAC008480AE /* OCHamcrest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCHamcrest.xcodeproj; path = "Frameworks/hamcrest-iphone/Source/OCHamcrest.xcodeproj"; sourceTree = "<group>"; };
+		4B83789711DE18EE0014ADC0 /* Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = "<group>"; };
+		4B83789811DE18EE0014ADC0 /* Strategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Strategy.m; sourceTree = "<group>"; };
+		4B83792011DE20C80014ADC0 /* ProxyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyClass.h; sourceTree = "<group>"; };
+		4B83792111DE20C80014ADC0 /* ProxyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProxyClass.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iOS4GoogleToolbox-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOS4GoogleToolbox-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,6 +187,10 @@
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* iOS4GoogleToolboxAppDelegate.h */,
 				1D3623250D0F684500981E51 /* iOS4GoogleToolboxAppDelegate.m */,
+				4B83789711DE18EE0014ADC0 /* Strategy.h */,
+				4B83789811DE18EE0014ADC0 /* Strategy.m */,
+				4B83792011DE20C80014ADC0 /* ProxyClass.h */,
+				4B83792111DE20C80014ADC0 /* ProxyClass.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -471,6 +483,8 @@
 				1D3623260D0F684500981E51 /* iOS4GoogleToolboxAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				28D3F202112F7DC200FD0661 /* iOS4GoogleToolbox.xcdatamodeld in Sources */,
+				4B83789A11DE18EE0014ADC0 /* Strategy.m in Sources */,
+				4B83792311DE20C80014ADC0 /* ProxyClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +501,8 @@
 				4B346A6911DCDCA8008480AE /* GTMObjC2Runtime.m in Sources */,
 				4B346A6A11DCDCA8008480AE /* GTMRegex.m in Sources */,
 				4B346A7011DCDD2E008480AE /* FakeTest.m in Sources */,
+				4B83789911DE18EE0014ADC0 /* Strategy.m in Sources */,
+				4B83792211DE20C80014ADC0 /* ProxyClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,9 +557,12 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/Frameworks/hamcrest-iphone/Source/build/Debug-iphonesimulator",
 					"$(SRCROOT)/Frameworks/ocmock-iphone/Source/build/Debug-iphonesimulator",
